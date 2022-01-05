@@ -1,0 +1,26 @@
+{
+    "name": "Twitch-Alert",
+    "version": "2.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "discord.js": "^12.5.3",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "node-twitch": "^0.4.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nohup node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GegrCa794/arys-bot.git"
+    },
+    "author": "Pwenill",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GegrCa794/arys-bot/issues"
+    },
+    "homepage": "https://github.com/GegrCa794/arys-bot#readme",
+    "description": ""
+}

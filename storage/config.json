@@ -1,0 +1,12 @@
+{
+    "token": "<BOT_TOKEN>",
+    "prefix": "!",
+    "twitch": {
+        "client_id": "<CLIENT_ID>",
+        "client_secret": "<CLIENT_SECRET>",
+        "channel_id": "<CHANNEL_SENDING_NEWS>",
+        "channel_user": "<CHANNEL_USER_SEND_INFO>",
+        "interval_ms": 40000
+    },
+    "web_token": "<WEB_TOKEN_FOR_CONNECTION>"
+}

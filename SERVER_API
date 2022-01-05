@@ -1,0 +1,10 @@
+>>Add a streams in DB
+http://<SERVER_IP>:3000/add-streams-channel?name<CHANNEL_TWITCH>&token=<TOKEN>
+
+
+>>View list streams register
+http://<SERVER_IP>:3000/list-streams-channel?token=<TOKEN>
+
+
+>>Remove channel stream
+http://<SERVER_IP>:3000/remove-streams-channel?name=<CHANNEL_TWITCH>&token=<TOKEN>
