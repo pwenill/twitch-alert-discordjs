@@ -47,16 +47,16 @@ Lien utiles
 [Twitch Developers](https://dev.twitch.tv/)
 ```json
 {
-    "token": "<BOT_TOKEN>", // Le token du bot discord
+    "token": "Le token du bot discord",
     "prefix": "!",
     "twitch": {
-        "client_id": "<CLIENT_ID>", // Le client ID de twitch
-        "client_secret": "<CLIENT_SECRET>", Le client SECRET de twitch
-        "channel_id": "<CHANNEL_SENDING_NEWS>", // Le channel ou le serveur vas recevoir les streams
-        "channel_user": "<CHANNEL_USER_SEND_INFO>", // Channel ou il envoie informations du streameurs
-        "interval_ms": 40000 // Le nombre interval que le bot verifie pour envoyé le message
+        "client_id": "Client ID de api twitch",
+        "client_secret": "Client SECRET de api twitch",
+        "channel_id": "Channel d'envoie message lors qu'un stream a ete lancé", 
+        "channel_user": "Channel informations sur utilisateur",
+        "interval_ms": "Nombre interval que le bot verifie pour envoyé le message. Par defaut il est a 40000ms"
     },
-    "web_token": "<WEB_TOKEN_FOR_CONNECTION>" // Le token pour securisé la conexions au serveur web
+    "web_token": "Le token pour securisé la conexions au serveur web"
 }
 ```
 
