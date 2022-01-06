@@ -1,60 +1,59 @@
 # Twitch Alert NodeJS
 
-C'est une applications fait en [NodeJS](https://nodejs.org/en/) et utilise api de [Discord.JS](https://discord.js.org/#/) et [Node Twitch](https://www.npmjs.com/package/node-twitch).
+It is an application made in [NodeJS](https://nodejs.org/en/) and uses [Discord.JS](https://discord.js.org/#/) and Node [Node Twitch](https://www.npmjs.com/package/node-twitch).
 
-Il a pour but de notifié si un streamer est en live via un message sur un serveur discord. Il a pour particularité d'être facile a utilisé. Il y a un accès serveur web pour ajouté,suprimé, voir la liste des utilisateur enregistré.
+Its purpose is to notify if a streamer is live, a message is sent on a discord server. It has the distinction of being easy to use. There is a web server access to added, deleted, see the list of registered users.
 
-## Commande
+## Command
 
-### Utilisateur
+### Users
 ```bash
 !twitch users
 ```
-
-Ajout d'un nouveau utilisateurs via son pseudo twitch
+Add a new user via the twitch username
 ```bash
 !twitch users add (pseudo)
 ```
-Suprimé un utilisateur via son pseudo twitch, verifié qu'il est deja enregistré
+Deleted the user via twitch username, check if he is registered
 ```bash
 !twitch users remove (pseudo)
 ```
-Voir la liste des utilisateurs deja enregistré
+See the list of the user already registered
 ```bash
 !twitch users list
 ```
 
 ### Channel
-Changez le salon notifications par défaut via id du salon
+Change the default salon of notifications via the id
 ```bash
 !twitch channels (id)
 ```
 
 ## Installation
 
-Installé les paquets via la commande ci-dessous et installations seras fait automatique.
-Assurez vous bien que le fichier package.json soit bien dans le dossier
+Install the package via the command below.
+Make sure the package.json file is exist in folder
 
 ```bash
 npm i
 ```
 
 ## Configurations
-Lien utiles
+Link useful
 
 [Discord Developers](https://discord.com/developers/applications)
 
 [Twitch Developers](https://dev.twitch.tv/)
 ```json
 {
-    "token": "Le token du bot discord",
+    "token": "The token of the discord bot",
     "prefix": "!",
     "twitch": {
-        "client_id": "Client ID de api twitch",
-        "client_secret": "Client SECRET de api twitch",
-        "channel_id": "Channel d'envoie message lors qu'un stream a ete lancé", 
-        "channel_user": "Channel informations sur utilisateur",
-        "interval_ms": "Nombre interval que le bot verifie pour envoyé le message. Par defaut il est a 40000ms"
+        "client_id": "Client ID from api twitch",
+        "client_secret": "Client SECRET from api twitch",
+        "channel_id": "The channel to sent the message when stream start", 
+        "channel_user": "The channel to sent information from user twitch",
+        "interval_ms": "The number interval from bot check stream online Nombre interval que le bot verifie pour envoyé le message. Par defaut il est a 40000ms"
     },
     "web_token": "Le token pour securisé la conexions au serveur web"
 }
