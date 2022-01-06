@@ -2,7 +2,7 @@
 
 C'est une applications fait en [NodeJS](https://nodejs.org/en/) et utilise api de [Discord.JS](https://discord.js.org/#/) et [Node Twitch](https://www.npmjs.com/package/node-twitch).
 
-Il a pour but de notifié si un streamer est en live pour envoyé un message sur un serveur discord. Il a pour particularité d'être facile a utilisé, juste quelque commande simple. Il y a un accès serveur web pour ajouté, voir la liste des utilisateur enregistré.
+Il a pour but de notifié si un streamer est en live via un message sur un serveur discord. Il a pour particularité d'être facile a utilisé. Il y a un accès serveur web pour ajouté,suprimé, voir la liste des utilisateur enregistré.
 
 ## Commande
 
